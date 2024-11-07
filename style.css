@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list li a {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #2575fc;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color: #6a11cb;
+    transform: scale(1.1);
+}
+
+/* Center student cards */
+.student-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: none;
+}
+
+.student-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.show-more-btn {
+    display: block;
+    margin: 15px auto;
+    background-color: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.show-more-btn:hover {
+    background-color: #6a11cb;
+}
+
+.more-info {
+    display: none;
+    color: #f4f4f9;
+    font-size: 1em;
+    margin-top: 10px;
+}
+.home-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+}
+
+.home-button:active {
+    transform: scale(0.95);
+}
